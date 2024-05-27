@@ -122,7 +122,6 @@ public class Main {
 
         // create an array list for storing Employee object this is to store the
         // employee details
-        // ArrayList<Employee> employees = new ArrayList<Employee>();
         // scanner object for user input
         Scanner userinput = new Scanner(System.in);
 
@@ -139,27 +138,6 @@ public class Main {
             // logic of the application here
 
             if ("display".equals(command) == true) {
-                // displaying the list of employee
-                // check if there are employees
-                // System.out.println();
-                // if (employees.isEmpty()) {
-                // System.out.println("There are " + employees.size() + " employees");
-                // System.out.println("We have nothing to show");
-                // System.out.println();
-                // } else {
-                // System.out.println("There are " + employees.size() + " employees");
-                // System.out.println("The following is the list of employees");
-                // System.out.println("No | ID | Name | Department | Salary ");
-                // for (int i = 0; i < employees.size(); i++) {
-                // System.out
-                // .println(
-                // (i + 1) + " " + employees.get(i).getId() + " " + employees.get(i).getName()
-                // + " " + employees.get(i).getDepartment() + " "
-                // + employees.get(i).getSalary());
-
-                // }
-                // System.out.println();
-                // }
                 employeemanager.displayAllEmployees();
             } else if ("add".equals(command) == true) {
                 // adding employees to the array
@@ -190,22 +168,6 @@ public class Main {
                 // command to remove employees
                 System.out.println();
                 System.out.println("Removing an employee!");
-                // if (employees.isEmpty()) {
-                // System.out.println("There are " + employees.size() + " employees");
-                // System.out.println("Add employee before removing");
-                // System.out.println();
-                // } else {
-                // System.out.println("There are " + employees.size() + " employees");
-                // System.out.println("The following is the list of employees");
-                // System.out.println("No | ID | Name | Department | Salary ");
-                // for (int i = 0; i < employees.size(); i++) {
-                // System.out
-                // .println(
-                // (i + 1) + " " + employees.get(i).getId() + " " + employees.get(i).getName()
-                // + " " + employees.get(i).getDepartment() + " "
-                // + employees.get(i).getSalary());
-                // System.out.println();
-                // }
                 employeemanager.displayAllEmployees();
                 System.out.println();
                 System.out.print("Select Employee by no to remove (number only) ");
