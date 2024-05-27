@@ -161,6 +161,8 @@ public class Main {
                     System.out.println("Successfully removed the employee");
 
                 }
+            } else if ("quit".equals(command) == true) {
+                System.out.println("Exiting the application...");
             } else {
                 System.out.println("Command '" + command + "' not found.");
             }
